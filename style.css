@@ -1,0 +1,344 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+p{
+	font-size: 0.9rem;
+	line-height:1.4 ;
+	font-weight: 400;
+	color: #606060;
+	font-family: 'Roboto Slab', serif;
+}
+
+i{
+	color:#1789E8  
+
+}
+h3{
+	font-family: 'Fredoka One', cursive;
+}
+.navbar i{
+	color: white;
+}
+#loading{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #fff url('https://static.dribbble.com/users/238114/screenshots/3372087/loader.gif')
+no-repeat center;
+z-index: 99999;}
+
+
+.extra-div h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0 ;
+	font-weight:  bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	/* background-image: linear-gradient(rgb(0,168,125,0.3),rgb(0,168,125,0.3)),url('imag/new.jpg'); */
+	background-repeat: no-repeat;
+	   background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%,100% 75%,50% 90%,0 75%,0 0);
+	position: relative;
+
+}
+.header button{
+	border: none;
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+
+}
+.nav-item a{
+	color: #fff !important;
+	font-weight: bold;
+
+}
+
+.header-section{
+	width: 100%;
+	height: inherit ;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.header-buttons a{
+	border: 1px solid white;
+	border-radius: 100px;
+	margin: 0.5px;
+	padding: 12px 35px;
+	outline: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.header-buttons a:hover{
+             color: #FF6501 ;
+               background: #fff;
+               text-decoration: none;
+               box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: 	#000000;
+}
+
+/* my intro css */
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+
+}
+.extra-div{
+	background: white;
+	border: medium none;
+	padding: 50px !important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+	transform: translateY(-10px)
+
+}
+
+/* my intro css close */
+/* my button links */
+.pricing{
+	width: 100%;
+	height: 100vh;
+
+	position: relative;
+
+}
+
+
+
+.card-footer{
+	color: #23DEE7 ;
+}
+.card-body{
+	color: #848585 ;
+}
+
+.card{
+	transition:0.4s ease ;
+
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff;
+	padding: 25px 9px !important;
+
+}
+.card-body{
+	padding: 30px 0px !important;
+
+}
+.card-body li{
+	margin: 10px 0 ;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 0.6;
+	color: #606060;
+
+}
+
+.card-footer{
+	background: white !important;
+	padding: 30px 0px !important;
+}
+.card:hover{
+	transform: translateY(-20px);
+	 box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+}
+
+.card:hover .card-header ,.card:hover .card-footer{
+	color: #FF6501 ;
+}
+
+
+/* footer start */
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #FF6501;
+	position: relative;
+
+
+
+}
+.footersection p{
+	color: white;
+
+}
+
+.footersection li a{
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;}
+
+.footersection li  i{
+		color: #fff;
+	}
+
+
+
+.footersection h4{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem !important;
+	font-weight: 600;
+text-shadow: 0 2px 5px rgba(0,0,0,0.4)
+
+}
+
+#mybtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	background-color: #00abff;
+	border-radius: 10px;
+}
+
+#mybtn:hover{
+	background: #606060
+}
+
+
+
+@media(max-width: 768px){
+	.nav-item{
+		text-align: center!important;
+
+	}
+	.pricing{
+		height: auto;
+		margin-top: 50px;
+	}
+	.card-second{
+		margin: 30px 0;
+	}
+	.header{
+		clip-path: polygon(100% 0%,100% 75%,50% 90%,0 75%,0 0);
+	}
+ .navbar-toggler-icon i{
+ 	color: white;
+ 	margin-bottom: 15px;
+ 	margin-top: 0px;
+ }
+}
+
+.ytr i{
+color: red
+}
+
+.ytr1 i{
+	color: #FCD600 
+}
+.ytr2 i{
+
+}
+.ytr3 i{
+	color: #0BBB11 ;
+}
+.pricing h3{
+	font-family: 'Righteous', cursive;
+}
+.rocket i{
+animation: colorchange 1s infinite!important;
+}
+
+
+@keyframes colorchange{
+	0%{color: #00BABD ;}
+	25%{color: #008C17 ;}
+	50%{color: #C20000 ;}
+	100%{color: #C000D3 }}
+
+
+.input-group-text a:hover{
+text-decoration: none;
+color: #EEF115 
+
+}
+
+
+
+.header-section p{
+	
+	font-family: 'Paytone One', sans-serif;;
+}
+
